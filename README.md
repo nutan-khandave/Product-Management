@@ -1,16 +1,70 @@
-# React + Vite
+# Product Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A full-stack Product Management System developed using **Laravel REST API, React.js, and MySQL**.
 
-Currently, two official plugins are available:
+The application provides a responsive interface for managing products and categories with CRUD operations, search, filtering, image upload, validation, and database relationships.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+### Product Management
+- Add, view, edit and delete products
+- Upload product images
+- Search products by name
+- Filter products by category
+- Product price and category management
+- Form validation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Category Management
+- Add, view, edit and delete categories
+- Search categories
+- Category description
+- Unique category name validation
 
-## Expanding the Oxlint configuration
+### Additional Features
+- Responsive and professional UI
+- REST API integration
+- Product and category relationship
+- API error handling
+- Delete confirmation
+- Mobile-friendly design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| React.js | Frontend |
+| JavaScript | Frontend logic |
+| HTML5 / CSS3 | UI and styling |
+| Axios | API communication |
+| React Router | Navigation |
+| Laravel | Backend REST API |
+| PHP | Backend |
+| MySQL | Database |
+| XAMPP | Local server |
+| Git & GitHub | Version control |
+| Postman | API testing |
+
+## Project Structure
+
+```text
+ProductManagement/
+├── backend/
+│   ├── app/
+│   │   ├── Http/Controllers/
+│   │   └── Models/
+│   ├── database/
+│   │   └── migrations/
+│   ├── public/
+│   │   └── images/
+│   └── routes/
+│       └── api.php
+│
+├── frontend/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── App.jsx
+│       └── App.css
+│
+├── .gitignore
+└── README.md
